@@ -36,10 +36,10 @@ Hello! I'm Festus Koech, a passionate software developer with expertise across m
 
 ### 📫 Connect With Me
 
-- **Email**: koechfestus0032gmail.com
+- **Email**: koechfestus003gmail.com / koechfestus004gmail.com
 - **LinkedIn**: https://www.linkedin.com/in/festus-koech-624270300/
 - **Twitter**: DevFestus
-- **Portfolio**: Comming...
+- **Portfolio**: Comming soon...
 
 ### 📊 GitHub Stats
 
