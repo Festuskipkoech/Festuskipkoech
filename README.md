@@ -1,6 +1,6 @@
 # Festus Koech
 
-**AI Systems Engineer — Agentic AI · Voice · RAG · MLOps · Full-Stack · VoIP**
+**AI Systems Engineer - Agentic AI · Voice · RAG · MLOps · Full-Stack · VoIP**
 
 I design and ship production-grade AI systems end-to-end. Six production deployments, real users, built from scratch.
 
