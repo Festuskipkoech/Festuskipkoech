@@ -1,95 +1,48 @@
 # Festus Koech
 
-**Software Engineer — AI Systems, Infrastructure & Full-Stack**
+**AI Systems Engineer — Agentic AI · Voice · RAG · MLOps · Full-Stack · VoIP**
 
-I build production-grade AI systems end-to-end. Not prototypes. Not demos. Systems running in live environments, under real load, solving real problems. In three years — entirely self-directed — I have shipped an adaptive agentic AI tutor serving 1,500+ students, a real-time AI exam supervision system handling 500 concurrent sessions, a VoIP AI call interception agent, and a voice-controlled agentic robotic car.
-
-I learn by shipping.
+I design and ship production-grade AI systems end-to-end. Six production deployments, real users, built from scratch.
 
 ---
 
-## What I build with
+## Skills
 
-**AI & Agents**
-LangChain · LangGraph · Agentic AI design · Human-in-the-loop systems · Prompt engineering · Azure OpenAI · Anthropic Claude · OpenAI
-
-**Deep Learning & ML**
-PyTorch · TensorFlow · LSTM · YOLOv11/12 fine-tuning · Behavioural ML · Anomaly detection · NLP · Computer Vision (MediaPipe · OpenCV)
-
-**Backend & Real-time**
-Python · FastAPI · Node.js · WebSockets · Redis · Celery · BullMQ · PostgreSQL · MongoDB · RESTful APIs
-
-**Infrastructure & Cloud**
-Kubernetes (AKS) · Docker · NGINX · Azure · Azure ML · MLflow · CI/CD · Git
-
-**Frontend & Mobile**
-Next.js · React · React Native · TailwindCSS · TypeScript · Kotlin
-
-**Vector Databases**
-Qdrant · Weaviate · ChromaDB
-
----
-
-## Selected Projects
-
-### Elimika AI Tutor
-Agentic AI tutor that synthesizes real-time content from multiple sources and adapts delivery to each student's learning patterns, pace, and behaviour using a custom ML model. Integrated into Elimika 365 LMS. **1,500+ active students. 100% uptime.**
-
-`Python` `LangGraph` `LangChain` `PyTorch` `FastAPI` `Qdrant` `Redis` `Docker` `Next.js` `Azure`
-
----
-
-### Elimika 365 — LMS & AI Exam Supervision
-Full-featured multi-tenant LMS with AI-assisted grading and a production exam supervision system. Proctoring pipeline combines computer vision, real-time pose estimation, and a custom behavioural ML model with per-student calibration baselines. **500 concurrent sessions on current infrastructure.**
-
-`Python` `FastAPI` `YOLOv12` `MediaPipe` `OpenCV` `PyTorch` `WebSockets` `Redis` `Kubernetes` `Azure ML`
-
----
-
-### Sieve — VoIP AI Call Interception System
-An AI agent sits live in the call path — autonomously handling inbound calls or escalating to a human operator in real time. Hardware-integrated (TG200 GSM), FreeSwitch routing, Whisper STT, LangGraph decision layer, Kotlin mobile app for operator escalation via FCM.
-
-`Python` `LangGraph` `LiveKit` `Whisper` `FreeSwitch` `VoIP/SIP` `Kotlin` `FastAPI` `Docker`
-
----
-
-### ARC — Agentic Robotic Car
-Voice-controlled robotic car. Natural language commands from a React Native app flow through a LangGraph agentic pipeline and execute physically via Arduino firmware in C/C++. Full-stack IoT meets production agentic AI.
-
-`Python` `LangGraph` `Whisper` `Anthropic Claude` `Weaviate` `React Native` `Arduino` `C/C++`
-
----
-
-### Events Zawadi — Social Gifting Platform
-Event-driven gifting platform with a surprise-preservation mechanic — pledge activity stays hidden from the recipient until the buyer marks a gift as revealed. Real-time. **100% uptime.**
-
-`Node.js` `Next.js` `PostgreSQL` `WebSockets` `BullMQ` `Redis` `Docker` `Azure`
-
----
-
-## A few numbers
-
-| | |
+| Area | Technologies |
 |---|---|
-| Students on Elimika AI | 1,500+ |
-| Concurrent sessions (Elimika 365) | 500 |
-| Platform uptime | 100% |
-| Years building | 3 |
-| Hours per day | 10 – 15 |
-| % self-taught | 75%+ |
+| **AI & Agents** | `LangChain` `LangGraph` `FastMCP` `CrewAI` `Anthropic Claude` `Azure OpenAI` `OpenAI` `Hugging Face` `Prompt Engineering` `Human-in-the-loop` `Agent governance` `A2A flows` |
+| **Voice & Speech** | `Whisper STT` `Chatterbox TTS` `Piper TTS` `Silero VAD` `LiveKit` `FreeSWITCH` `VoIP/SIP` `SIP/RTP` `WebSocket audio streaming` `Linphone` |
+| **RAG & Search** | `Qdrant` `Weaviate` `ChromaDB` `Jina Embeddings` `Crawl4AI` `SearXNG` `hybrid search` `query rewriting` `multi-source RAG` |
+| **MLOps** | `Azure ML` `MLflow` `continuous retraining` `CI/CD quality gates` `model observability` `automated promotion` `GPU compute` |
+| **ML & Deep Learning** | `PyTorch` `TensorFlow` `LSTM` `YOLOv11/12 fine-tuning` `NLP` `Behavioural ML` |
+| **Computer Vision** | `MediaPipe FaceMesh` `OpenCV` `YOLO object detection` `solvePnP` `head pose estimation` |
+| **Backend & APIs** | `FastAPI` `Node.js` `Express.js` `REST APIs` `WebSockets` `Redis pub/sub` `Celery` `BullMQ` `GraphQL` `JWT/OAuth` |
+| **Frontend** | `React` `Next.js` `TypeScript` `TailwindCSS` `CSS3` `Component Architecture` |
+| **Mobile** | `React Native` `NativeWind` `Kotlin` |
+| **Infrastructure** | `Kubernetes (AKS)` `Docker` `NGINX` `Azure Container Apps` `GitHub Actions` `Vercel` `Linux` |
+| **Cloud** | `Microsoft Azure` `IBM Cloud` `Vercel` |
+| **Databases** | `PostgreSQL` `MySQL` `MongoDB` `Redis` `Qdrant` `Weaviate` `ChromaDB` |
+| **Languages** | `Python` `TypeScript` `JavaScript` `Go` `Kotlin` `C/C++` `Rust` `Java` |
+| **Network & Telephony** | `MikroTik RouterOS` `Yeastar PBX` `FreeSWITCH` `SIP trunk administration` `IVR` `VLAN segmentation` `WireGuard VPN` |
 
 ---
 
-## Recognition
+## Projects
 
-- Microsoft Azure credits — awarded by Microsoft
-- IBM Cloud credits — awarded by IBM
-- Anthropic Claude credits — awarded by Anthropic
-- Best Student 2024 — Advanced Data Science Bootcamp, Martial Jenga Labs
-- Selected by KCA University Vice Chancellor for university-wide platform pilot
+| Project | Description | Stack |
+|---|---|---|
+| [**Elimika AI Tutor**](https://festus-portolio.vercel.app/) | Adaptive agentic learning platform. LangGraph pipeline with real-time multi-source RAG and a custom PyTorch LSTM tracking per-student learning patterns. 1,500+ students, 100% uptime. KCA University pilot incoming. | `Python` `LangGraph` `PyTorch` `Qdrant` `Azure ML` `MLflow` `Kubernetes` |
+| [**Elimika 365**](https://festus-portolio.vercel.app/) | Real-time AI exam supervision system. YOLOv11/12 + MediaPipe FaceMesh 478-landmark pose estimation + custom LSTM anomaly model with per-student calibration. 500 concurrent sessions on AKS. | `Python` `FastAPI` `YOLO` `PyTorch` `Redis` `Azure ML` `Kubernetes` |
+| [**Voicekit**](https://github.com/Festuskipkoech/voice-kit) | Self-hosted voice agent infrastructure package. Eliminates $0.15–0.25/min platform fees. Whisper STT, Piper TTS, Chatterbox TTS with voice cloning, Silero VAD, OpenAI and Claude LLM routing. True end-to-end token-to-audio streaming. | `Python` `Whisper` `Chatterbox` `Silero VAD` `FastAPI` `Docker` |
+| [**Sieve**](https://github.com/Festuskipkoech/sieve) | VoIP AI call interception on FreeSWITCH. LangGraph agent handles or escalates live calls autonomously. Escalated calls pushed to a Kotlin Android app via FCM over Linphone SIP. Full human-in-the-loop telephony. Zero per-minute costs. | `Python` `FastAPI` `LangGraph` `FreeSWITCH` `Kotlin` `Redis` `Docker` |
+| [**Prepwise**](https://github.com/Festuskipkoech/Prepwise) | AI job search operating system. Four LangGraph agents — job search, document generation, interview prep, application tracker — sharing state over WebSockets. Ingests a CV, scores jobs, generates tailored resumes and cover letters. | `Python` `LangGraph` `Qdrant` `Jina` `Claude` `PostgreSQL` `Next.js` |
+| [**GitHub PR Review MCP Server**](https://github.com/Festuskipkoech/github-pr-mcp) | FastMCP server exposing GitHub pull request operations as deterministic LLM-callable tools. List PRs, read diffs, post inline comments, approve, request changes. Tested end-to-end with MCP Inspector and Claude Desktop. | `Python` `FastMCP` `httpx` `Docker` |
+| [**Docker Container Manager MCP Server**](https://github.com/Festuskipkoech) | FastMCP server wrapping the Docker SDK. Gives any LLM client the ability to list, start, stop, inspect, and monitor Docker containers with accurate CPU and memory stats matching `docker stats` output. | `Python` `FastMCP` `Docker SDK` |
+| [**OpenSearch Engine**](https://github.com/Festuskipkoech/opensearch) | Zero-cost self-hosted search infrastructure for AI agents. SearXNG metasearch + Spider-rs content extraction, intent classification, parallel engine routing, structured LLM-ready JSON with token counts and relevance scores. | `Go` `Rust` `Python` `SearXNG` `gRPC` `Docker` |
+| [**Events Zawadi**](https://eventszawadi.com/) | Full-stack social gifting platform with concurrent transaction handling, BullMQ async job queues, and a surprise-preservation mechanic requiring careful state management at the database layer. 100% uptime. | `Node.js` `Express` `Next.js` `TypeScript` `PostgreSQL` `BullMQ` `Redis` `Azure` |
 
 ---
 
-## Find me
+## Contact
 
-[Portfolio](https://festus-portfolio.elimika.co.ke) · [LinkedIn](https://www.linkedin.com/in/dev-festus-koech/)
+[Portfolio](https://festus-portolio.vercel.app/) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/festuskoech) &nbsp;·&nbsp; [GitHub](https://github.com/Festuskipkoech) &nbsp;·&nbsp; koechfestus003@gmail.com &nbsp;·&nbsp; +254 701 183 935
