@@ -45,4 +45,4 @@ I design and ship production-grade AI systems end-to-end. Six production deploym
 
 ## Contact
 
-[Portfolio](https://festus-portolio.vercel.app/) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/festuskoech) &nbsp;·&nbsp; [GitHub](https://github.com/Festuskipkoech) &nbsp;·&nbsp; koechfestus003@gmail.com &nbsp;·&nbsp; +254 701 183 935
+[Portfolio](https://festus-portolio.vercel.app/) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/dev-festus-koech/) &nbsp;·&nbsp; [GitHub](https://github.com/Festuskipkoech) &nbsp;·&nbsp; koechfestus003@gmail.com &nbsp;·&nbsp; +254 701 183 935
